@@ -33,4 +33,4 @@ Shell, permissions
 	- The file _hello is in the working directory
 	- The file _hello is a symbolic link
 - 16. If only. Write a script that changes the owner of the file hello to vincent only if it is owned by the user guillaume.
-	- The file hello will be in the working directory
+	- The file hello will be in the working directory.
