@@ -16,4 +16,4 @@ Shell, init files, variables and expansions
 - 14-decimal_to_hexadecimal Converts a number from base 10 to base 16.
 - 15-rot13 Eencodes and decodes text using the rot13 encryption.
 - 16-odd Prints every other line from the input, starting with the first line.
-- 17-water_and_stir Adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+- 17-water_and_stir Adds the two numbers stored in the environment variables WATER and STIR and prints the result
