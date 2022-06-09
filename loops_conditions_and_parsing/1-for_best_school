@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-for_ i _ 10;
+for ((i=o; i<10; i++))
 do
-	echo "Holberton School"
+	echo "Best School"
 done
