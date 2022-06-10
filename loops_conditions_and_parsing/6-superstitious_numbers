@@ -1,1 +1,15 @@
 #!/usr/bin/env bash
+#Write a Bash script that displays numbers from 1 to 20 and:
+
+i=1
+while (( i<=20 ))
+do
+	echo "i$"
+	case $i in
+		4) echo "bad luck from china";;
+		9) echo "bad luck form japan";;
+		17) echo "bad luck from italy";;
+	esac
+	(( i++ ))
+done 
+
