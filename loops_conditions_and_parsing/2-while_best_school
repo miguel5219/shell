@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# this Bash script that displays Best School 10 times.
-while [[$NUMBER _le 10]]
+# this Bash script that displays Best School 10 times
+while ((i=o;i<10;i++))
 do
-	echo "Best School ${NUMBER} times"
-	(( NUMBER++ ))
+	echo "Best School"
 done
