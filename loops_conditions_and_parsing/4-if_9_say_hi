@@ -9,7 +9,7 @@ do
 		echo Best School
 	else
 		echo Best  School
-		echo "hi"
+		echo "Hi"
 	fi
 	(( i++))
 done
