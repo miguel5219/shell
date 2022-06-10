@@ -6,7 +6,7 @@ while [ $i -lt 10 ]
 do
 	echo "Best School"
 	((i++))
-	if [["i$" == '10' ]]; then
+	if [[ "$i" == '10' ]]; then
 		hi
 	fi
 done
