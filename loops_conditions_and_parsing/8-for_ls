@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Write a Bash script that displays
 
-for i in *
+for file in *;
 do
-	echo "$I" | cut -d '-' _f2
+	echo "$file" | cut -d '-' -f2-
 done
