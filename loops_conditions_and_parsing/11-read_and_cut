@@ -1,1 +1,10 @@
 #!/usr/bin/env bash
+# read and cut stuff
+
+file=/etc/passwd
+
+while read -r print
+do
+	cut -d ':' -f1,3,6
+	echo "$print"
+done < "$file"
