@@ -1,1 +1,4 @@
 #!/usr/bin/env bash
+#Script that deletes highlander
+
+pkill -f -9 "7-highlander"
