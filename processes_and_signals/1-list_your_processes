@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Script that adds to the previous and displays lines containing the bash word.
+# Script that displays a list of all currently running processes, including those which may not have TTY, in a hiearchy 
 
-ps -auxf | grep -e 'BASH'
+ps -auxf
