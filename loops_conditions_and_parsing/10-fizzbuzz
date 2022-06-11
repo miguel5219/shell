@@ -11,7 +11,7 @@ do
 	then echo "Fizz"
 	elif [ $((count % 5)) -eq 0 ]
 	then
-		echo "buzz"
+		echo "Buzz"
 	else
 		echo $count
 	fi
