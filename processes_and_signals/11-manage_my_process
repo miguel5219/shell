@@ -6,7 +6,7 @@ if [ "$1" == "start" ]
 then
 	echo "manage_my_process started" #Also job number, PID store in pid file
 	./manage_my_process &
-	echo "$!" > "$car1"
+	echo "$!" > "$var1"
 
 elif [ "$1" == "stop" ]
 then
@@ -22,5 +22,5 @@ then
 	./manage_my_process &
 	echo "$!" > "$var1"
 else
-	echo "usage: manage_my_process{start|stop|restart}"
+	echo "usage: manage_my_process {start|stop|restart}"
 fi
